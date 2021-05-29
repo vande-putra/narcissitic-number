@@ -19,7 +19,7 @@ bool narcissistic(int n){
         Num = Num / 10;
     }
 
-    if (r == value)
+    if (r == n)
         return true;
     else
         return false;
